@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+
+    padding: 18px 35px 19px 36px;
+
+}
+
+/* header and navigation style */
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+/* banner-Styles */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0px 205px
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+/* header background */
+
+.header-banner{
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat:no-repeat;
+    background-position: bottom right, left;
+
+}
+
+/* main section */
+.main-body{
+
+    max-width: 1140px;
+    /* the following thing has been done to center align the main section */
+    margin: 0 auto 
+
+}
+/* Main Section */
+
+
+.about-section{
+
+}
+.section-title{
+
+}
+.section-description{
+
+}
