@@ -108,13 +108,14 @@ section {
 
 }
 
-.section-title {
+.section-title{
     /* We are moving this to the about so that everything in about
     is in the center. 
      text-align: center; */
     /* In 5-6 we changed this to the following. My guess is to just make
     thing simple
     margin-bottom: 30px; */
+    text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 35px;
@@ -216,4 +217,33 @@ section {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* Contact Styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type ='text'], input[type = 'email'], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+
+    height: 64px;
+
+
+}
+.contact a{
+    text-decoration: none;
 }
